@@ -1,0 +1,12 @@
+
+<div [style.backgroundColor]="color" > bonjour</div>
+<div><input 
+    class="form-control"    
+    type="text" 
+    #colorInput 
+    (change)="changeColor(colorInput.value)">
+   
+  
+</div>
+
+<button class="btn btn-primary" (click)="reset()">default color</button>
